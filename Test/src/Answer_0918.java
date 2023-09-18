@@ -191,6 +191,50 @@ public class Answer_0918 {
 //		System.out.println(result);
 		
 		
+		// 8) 중첩 switch case
+		
+		int com=(int)(Math.random()*3); // 0, 1, 2
+		System.out.println("가위(0), 바위(1), 보(2)");
+		int user = scan.nextInt();
+		
+		switch(com) {
+			case 0 : // 컴퓨터 가위
+				switch(user){
+					case 0 : 
+						System.out.println("비겼습니다.");
+						break;
+					case 1 :
+						System.out.println("사용자가 이겼습니다.");
+						break;
+					case 2 :
+						System.out.println("컴퓨터가 이겼습니다.");
+				}
+			case 1 : // 컴퓨터 바위
+				switch(user){
+				case 0 : 
+					System.out.println("컴퓨터가 이겼습니다.");
+					break;
+				case 1 :
+					System.out.println("비겼습니다.");
+					break;
+				case 2 :
+					System.out.println("사용자가 이겼습니다.");
+			}
+			case 2 : // 컴퓨터 보
+				switch(user){
+				case 0 : 
+					System.out.println("사용자가 이겼습니다.");
+					break;
+				case 1 :
+					System.out.println("컴퓨터가 이겼습니다.");
+					break;
+				case 2 :
+					System.out.println("비겼습니다.");
+			}
+		}
+		
+		
+		
 	}
 
 }
