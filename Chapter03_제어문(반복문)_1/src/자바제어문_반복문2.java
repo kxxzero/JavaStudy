@@ -16,6 +16,15 @@
  * 		}
  * 	}
  * 	System.out.println(a) // 블록 안에서 선언된 변수 a를 블록 밖에서 출력해서 오류 발생
+ * 
+ * 	2차 for문(중첩 for문)
+ * 	for(초기값; 조건식; 증가식)
+ * 	{
+ * 		for(초기값; 조건식; 증가식)
+ * 		{
+ * 			
+ * 		}
+ * 	}
  * 	
  * 
  */
@@ -31,6 +40,15 @@ public class 자바제어문_반복문2 {
 		
 		for(int i=2; i<=100; i+=2) {
 			System.out.println(i);
+		}
+		
+		
+		// 중첩 for문(2차 for문)
+		for(int i=1; i<=4; i++) { // 줄 수
+			for(int j=1; j<=5-i; j++) { // 실제 출력물
+				System.out.println("★");
+			}
+			System.out.println();
 		}
 	}
 
