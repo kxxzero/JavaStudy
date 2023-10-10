@@ -139,17 +139,17 @@ public class 배열_1 {
 		
 		// ④ 요일 구하기
 		int week=total%7;
-		char[] strweek= {'일','월','화','수','목','금','토'};		
+		char[] strWeek= {'일','월','화','수','목','금','토'};		
 		
 		// 달력 출력
-		System.out.println(year+"년도 "+month+"월 1일은 "+strweek[week]+"요일입니다.");
+		System.out.println(year+"년도 "+month+"월 1일은 "+strWeek[week]+"요일입니다.");
 		
 		System.out.println(year+"년도 "+month+"월");
 		
 		System.out.println(); // 한 줄 띄기
 		
-		for(int i=0; i<strweek.length; i++) {
-			System.out.print(strweek[i]+"\t"); // 요일 출력
+		for(int i=0; i<strWeek.length; i++) {
+			System.out.print(strWeek[i]+"\t"); // 요일 출력
 		}
 		
 		System.out.println(); // 한 줄 띄기
