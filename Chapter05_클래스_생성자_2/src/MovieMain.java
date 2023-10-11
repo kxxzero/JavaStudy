@@ -19,6 +19,7 @@ class Movie
 	String director;
 }
 
+// 액션 클래스
 class MovieSystem
 {
 	static Movie[] movies=new Movie[1938];
