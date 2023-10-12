@@ -89,8 +89,8 @@ public class 문자열_1 {
 		 */
 		
 		for(int i=0; i<10; i++) {
-			c=s.charAt(i);
-			System.out.println("c="+c);
+			char ch=s.charAt(i);
+			System.out.println("ch="+ch);
 		}
 		
 	}

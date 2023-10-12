@@ -12,10 +12,18 @@ import lombok.Setter;
 @Data
 @NoArgsConstructor // 디폴트 생성자
 @AllArgsConstructor // 매개변수 생성자
+
 public class Music {
 	// private : 은닉화
+	// 변수 => 저장/값 읽기 => 메소드화
 	private int mno;
 	private String title;
+	/*
+	 * 	public void setTitle(String title)
+	 * 	{
+	 * 		this.title=title;
+	 * 	}
+	 */
 	private String singer;
 	private String album;
 	private int idcrement;
