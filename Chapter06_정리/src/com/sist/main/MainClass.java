@@ -21,7 +21,6 @@ public class MainClass {
 	public static void main(String[] args) {
 		int a=(int)(random()*100+1);
 		System.out.println(a);
-			
 	}
 
 }
