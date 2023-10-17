@@ -72,8 +72,7 @@ public class 자바제어문_반복문4 {
 				}
 			}
 			System.out.println();
-		}
-		
+		}	
 	}
 }
  
