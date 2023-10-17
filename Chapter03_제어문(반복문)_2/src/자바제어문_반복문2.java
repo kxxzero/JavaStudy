@@ -22,7 +22,6 @@ public class 자바제어문_반복문2 {
 			}
 			System.out.println();
 		}
-		
 	}
 
 }

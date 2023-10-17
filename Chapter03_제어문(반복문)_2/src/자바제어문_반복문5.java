@@ -65,5 +65,5 @@ public class 자바제어문_반복문5 {
 			System.out.println();
 		}
 	}
-	
+
 }
