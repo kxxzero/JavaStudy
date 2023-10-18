@@ -32,8 +32,23 @@ package com.sist.main;
  * 						메소드는 상위클래스에 있는 메소드만
  * 						=> 오버라이딩 된 것만 가져올 수 있음
  * 
+ * 				=> 인터페이스를 통해서 클래스에 접근
+ * 					인터페이스에 있는 메소드만 가지고 있어야 효율적임
+ * 				interface A
+ * 				{
+ * 					void aaa();
+ * 					void bbb();
+ * 				}
  * 
- * 
+ * 				class B implements A
+ * 				{
+ * 					void aaa() {}
+ * 					void bbb() {}
+ * 					void ccc() {}
+ * 				}
+ * 				
+ * 				A a=new B(); // 가급적이면 사용하지 않음 => aaa(), bbb()
+ * 				B b=new B(); // 
  * 
  * 			class A
  * 			{
