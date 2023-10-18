@@ -1,7 +1,11 @@
 
 import javax.swing.*;
 import java.awt.*;
+<<<<<<< HEAD
 public class GameView extends JPanel{
+=======
+public class GameView {
+>>>>>>> refs/heads/master2
 	Image back, horse; // 변수 초기화
 	int x=20, y=560;
 	public GameView()

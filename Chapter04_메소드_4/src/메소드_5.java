@@ -44,6 +44,7 @@
 import java.util.Scanner;
 public class 메소드_5 {
 	
+<<<<<<< HEAD
 	// 입력
 	static void userInput(int[] kor, int[] eng, int[] math, int[] total, double[] avg)
 	{
@@ -136,6 +137,80 @@ public class 메소드_5 {
 
 	
 	
+=======
+//	int[] kor=new int[3];
+//	int[] eng=new int[3];
+//	int[] math=new int[3];
+//	int[] total=new int[3];
+//	int[] rank=new int[3];
+//	char[] score=new char[3];
+//	double[] avg=new double[3];
+	
+	// 입력
+	static void userInput(int[] kor, int[] eng, int[] math, int[] total, double[] avg)
+	{
+		Scanner scan=new Scanner(System.in);
+		for(int i=1; i<=3; i++)
+		{
+			System.out.println();
+		}
+	}
+	
+	// 총점
+	static void totalScore()
+	{
+		
+	}
+	
+	// 평균
+	static void avgScore()
+	{
+		for(int i=0; i<score.length; i++)
+		{
+			switch((int)(avg[i]/10.0))
+			{
+			case 10:
+			case 9:
+				score[i]='A';
+				break;
+			case 8:
+				score[i]='B';
+				break;
+			case 7:
+				score[i]='C';
+				break;
+			case 6:
+				score[i]='D';
+				break;
+			default :
+				score[i]='F';
+			}
+		}
+	}
+	
+	// 등수
+	static void gradeScore()
+	{
+		
+	}
+	
+	// 출력
+	
+	
+	// 조립
+	static void process()
+	{
+		int[] kor=new int[3];
+		int[] eng=new int[3];
+		int[] math=new int[3];
+		int[] total=new int[3];
+		int[] rank=new int[3];
+		char[] score=new char[3];
+		double[] avg=new double[3];
+		userInput()
+	}
+
+>>>>>>> refs/heads/master2
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] kor=new int[3];

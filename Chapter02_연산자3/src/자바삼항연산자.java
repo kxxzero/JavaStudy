@@ -18,5 +18,11 @@ public class 자바삼항연산자 {
 		ch=s==0?c:(char)(c+32);
 		// 'A' + 32 => 'a' = 97
 		System.out.println(ch>='A' && ch<='Z'? ch + "는(은) 대문자입니다." : ch + "는(은) 소문자입니다.");
+<<<<<<< HEAD
 	}
+=======
+		
+	}
+
+>>>>>>> refs/heads/master2
 }

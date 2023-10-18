@@ -19,7 +19,10 @@ class Movie
 	String director;
 }
 
+<<<<<<< HEAD
 // 액션 클래스
+=======
+>>>>>>> refs/heads/master2
 class MovieSystem
 {
 	static Movie[] movies=new Movie[1938];

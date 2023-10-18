@@ -89,8 +89,13 @@ public class 문자열_1 {
 		 */
 		
 		for(int i=0; i<10; i++) {
+<<<<<<< HEAD
 			char ch=s.charAt(i);
 			System.out.println("ch="+ch);
+=======
+			c=s.charAt(i);
+			System.out.println("c="+c);
+>>>>>>> refs/heads/master2
 		}
 		
 	}
