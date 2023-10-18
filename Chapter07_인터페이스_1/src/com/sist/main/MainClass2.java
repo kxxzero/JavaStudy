@@ -82,6 +82,7 @@ class C implements B, A
 	
 }
 
+
 public class MainClass2 {
 //	final int a=10;
 	
