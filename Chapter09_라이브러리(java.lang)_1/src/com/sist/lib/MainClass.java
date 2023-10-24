@@ -167,12 +167,12 @@ public class MainClass {
 		}
 				
 		
-		String data="홍길동|박문수|이순신|강감찬|을지문덕";
-		String[] names=data.split("|");
-		for(String name:names)
-		{
-			System.out.println(name);
-		}
+//		String data="홍길동|박문수|이순신|강감찬|을지문덕";
+//		String[] names=data.split("|");
+//		for(String name:names)
+//		{
+//			System.out.println(name);
+//		}
 		
 //		// 다중 검색 => N(Name), S(Subject), C(Content)
 //		String data1="NSC";
