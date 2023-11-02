@@ -3,7 +3,6 @@ package com.sist.client;
 import javax.swing.*;
 import java.awt.*;
 public class Login extends JFrame{
-
 	JLabel la1, la2, la3;
 	JTextField tf1;
 	JTextField tf2;

@@ -14,13 +14,13 @@ public class MenuPanel extends JPanel{
 	public MenuPanel()
 	{
 		b1=new JButton("HOME");
-		b2=new JButton("맛집 검색");
+		b2=new JButton("영화 검색");
 		b3=new JButton("실시간 채팅");
 		b4=new JButton("커뮤니티");
 		b5=new JButton("뉴스");
 		b6=new JButton("종료");
 		
-		setLayout(new GridLayout(5, 1, 10, 10)); // (row, col, left, right)
+		setLayout(new GridLayout(1, 5, 10, 10)); // (row, col, left, right)
 		add(b1);
 		add(b2);
 		add(b3);

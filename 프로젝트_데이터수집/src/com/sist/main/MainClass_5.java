@@ -54,14 +54,14 @@ public class MainClass_5 {
 					try
 					{
 						image=poster.attr("style");
+						image=image.substring(image.indexOf("(")+1, image.lastIndexOf(")"));
 					}catch(Exception ex)
 					{
-						image="이미지없음";
+						image="이미지 없음";
 					}
 					
 					
-					
-					String regdate="no",genre="no",nation="no",grade="no",time="no",score="no",make_share="no";
+					String regdate="개봉일 정보 없음",genre="장르 정보 없음",nation="국가 정보 없음",grade="등급 정보 없음",time="러닝타임 정보 없음",score="평점 정보 없음",make_share="누적관객 정보 없음";
 				       Elements etc=doc2.select("div.detail_cont dl.list_cont dt");
 				       //System.out.println(etc);
 				       for(int a=0;a<etc.size();a++)
@@ -128,9 +128,9 @@ public class MainClass_5 {
 //					image=image.substring(image.indexOf("(")+1, image.lastIndexOf(")"));
 //					System.out.println(image);
 					
-					String msg=(i+1)+"|"
-							+title.text()+"|"
-							+state.text()+"|"
+					String msg=
+//							(i+1)+"|"+
+							title.text()+"|"
 							+image+"|"
 							+regdate+"|"
 							+genre+"|"
@@ -139,6 +139,8 @@ public class MainClass_5 {
 							+time+"|"
 							+score+"|"
 							+make_share+"\r\n";
+//							+state.text()+"|"
+
 //							+temp							
 //							+dd1.text()+"|"
 //							+dd2.text()+"|"
