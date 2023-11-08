@@ -1,6 +1,6 @@
 package com.sist.vo;
 
-// 게시판 => 파일입출력 => VO(Value Object) => 변수(사용자 정의 데이터형)
+// 게시판 => 파일 입출력 => VO(Value Object) => 변수(사용자 정의 데이터형)
 // 캡슐화를 이용해서 데이터 보호 => 웹에서도 동일한 코딩
 // 1개의 게시물에 대한 정보를 가지고 있음
 import java.util.*;
